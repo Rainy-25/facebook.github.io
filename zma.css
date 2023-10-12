@@ -1,0 +1,86 @@
+/*
+.main{
+    width: 300px;
+    height: 350px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 60px;
+    height: 34px;
+  }
+
+  
+  /* Style the toggle switch input 
+  .checkbox {
+    display: none;
+  }
+  
+  /* Style the toggle switch label 
+  .label {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc; /* Default background color 
+    transition: background-color 0.4s;
+    border-radius: 34px;
+  }
+  
+  /* Style the toggle switch label when the input is checked (ON) 
+  .checkbox:checked + .label {
+    background-color: #2196F3 /* ON background color 
+  }
+  
+  /* Style the toggle switch circle (slider) *//*
+  .label:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: transform 0.4s;
+    border-radius: 50%;
+  }
+  
+  /* Move the circle to the right when the input is checked (ON) *//*
+  .checkbox:checked + .label:before {
+    transform: translateX(26px);
+  }
+
+  #mydiv {
+    display: none;
+  }
+
+body {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.main-btn button{
+  padding: 20px;
+  background-color: #ccc;
+  border: none;
+  outline: none;
+}
+*/
+
+.active, .btn:hover{
+  background-color: #2196F3;
+  color: red;
+  font-style: italic;
+}
+
+.myStyle {
+  background-color: coral;
+  padding: 16px;
+}
